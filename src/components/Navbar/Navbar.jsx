@@ -4,9 +4,9 @@ import phone from "../../assets/images/phone2.png";
 const Navbar = () => {
   return (
     <>
-      <header className=" fixed right-0 left-0 top-0 bg-[#1C2432] z-50">
+      <header className=" fixed right-0 left-0 top-0 bg-white z-50">
         <div className=" container mx-auto flex h-20 max-w-screen-xl items-center gap-10 sm:px-6 lg:pt-5 lg:px-20">
-          <a className="block text-gray-100 Home-Icon font-bold text-2xl" href="/">
+          <a className="block text-black Home-Icon font-bold text-2xl" href="/">
             <span className="sr-only">Home</span>
             smart city.
           </a>
@@ -16,7 +16,7 @@ const Navbar = () => {
               <ul className="flex items-center te gap-6 text-base font-medium ">
                 <li>
                   <a
-                    className=" transition tracking-wide text-gray-100 hover:border-b-2 hover:border-white py-3"
+                    className=" transition tracking-wide text-gray-600 hover:border-b-2 hover:border-black py-3"
                     href="/"
                   >
                     Latest Apartment Listings
@@ -25,7 +25,7 @@ const Navbar = () => {
 
                 <li>
                   <a
-                    className=" transition tracking-wide text-gray-100 hover:border-b-2 hover:border-white py-3"
+                    className=" transition tracking-wide text-gray-600 hover:border-b-2 hover:border-black py-3"
                     href="/"
                   >
                     Our Process
@@ -34,7 +34,7 @@ const Navbar = () => {
 
                 <button
                   type="button"
-                  class=" tracking-wide focus:outline-none text-gray-100 font-medium text-sm py-2 text-center inline-flex items-center "
+                  class=" tracking-wide focus:outline-none font-medium text-sm py-2 text-center inline-flex items-center "
                 >
                   More
                   <svg
@@ -53,7 +53,7 @@ const Navbar = () => {
 
                 <button
                   type="button"
-                  class="text-black font-bold bg-white transition duration-500 ease-in-out  hover:bg-[#00AB8E] focus:outline-none  rounded text-sm px-6 py-2 text-center inline-flex items-center dark:bg-white dark:hover:bg-[#00AB8E]"
+                  class="text-white bg-[#1C2432] transition duration-500 ease-in-out  hover:bg-[#00AB8E] focus:outline-none font-bold rounded text-sm px-6 py-2 text-center inline-flex items-center dark:bg-[#1C2432] dark:hover:bg-[#00AB8E]"
                 >
                   Houston
                   <svg
@@ -78,7 +78,7 @@ const Navbar = () => {
                 // className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
                 // href="/"
                 >
-                  <img src={phone} className="w-8 h-8 text-white" alt="" />
+                  <img src={phone} className="w-8 h-8" alt="" />
                 </a>
               </div>
 
