@@ -89,12 +89,12 @@ const Footer = () => {
                 <div className="flex flex-col item-center ps-10">
                   <p class="font-bold text-xl text-white uppercase">Social</p>
                   <ul className="mt-6 gap-5 text-base font-semibold flex items-center">
-                    <li className="rounded-full flex h-14 w-14 bg-[#FFAB91] ">
+                    <li className="rounded-full flex h-14 w-14 bg-[#FFAB91] hover:bg-[#333A46] text-black hover:text-gray-100 transition duration-300 cursor-pointer ">
                       <a
                         href="/"
                         rel="noreferrer"
                         target="_blank"
-                        class="text-black m-auto transition hover:opacity-75"
+                        class="m-auto"
                       >
                         <span class="sr-only">Instagram</span>
 
@@ -113,12 +113,12 @@ const Footer = () => {
                       </a>
                     </li>
 
-                    <li className="rounded-full flex h-14 w-14 bg-[#FFAB91]  ">
+                    <li className="rounded-full flex h-14 w-14 bg-[#FFAB91] hover:bg-[#333A46] text-black hover:text-gray-100 transition duration-300 cursor-pointer  ">
                       <a
                         href="/"
                         rel="noreferrer"
                         target="_blank"
-                        class="text-black m-auto transition hover:opacity-75"
+                        class=" m-auto"
                       >
                         <span class="sr-only">Facebook</span>
 
@@ -133,12 +133,12 @@ const Footer = () => {
                       </a>
                     </li>
 
-                    <li className="rounded-full flex h-14 w-14 bg-[#FFAB91] ">
+                    <li className="rounded-full flex h-14 w-14 bg-[#FFAB91] hover:bg-[#333A46] text-black hover:text-gray-100 transition duration-300 cursor-pointer ">
                       <a
                         href="/"
                         rel="noreferrer"
                         target="_blank"
-                        class="text-black m-auto transition hover:opacity-75"
+                        class=" m-auto"
                       >
                         <span class="sr-only">Twitter</span>
 
